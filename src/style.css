@@ -325,8 +325,9 @@ code {
 }
 
 
-/* стили для всех основных элементов */
+/* СТИЛИ ДЛЯ ВСЕХ ОСНОВНЫХ ЭЛЕМЕНТОВ */
 
+/* кнопки */
 .main_button,
 .secondary_button {
   padding: 12px 24px;
@@ -363,7 +364,7 @@ code {
 }
 
 
-
+/* карточки */
 .card {
   padding: 28px;
   border-radius: 24px;
@@ -378,7 +379,7 @@ code {
 }
 
 
-
+/* иконки карточек */
 .card_icon {
   width: 52px;
   height: 52px;
@@ -393,7 +394,7 @@ code {
 }
 
 
-
+/* тэги */
 .tag {
   padding: 8px 14px;
   border-radius: 999px;
@@ -406,7 +407,7 @@ code {
 }
 
 
-
+/* блоки кода */
 .code_block {
   padding: 16px;
   border-radius: 14px;
@@ -417,7 +418,7 @@ code {
 }
 
 
-
+/* секции */
 .section_block {
   padding: 32px;
   border-radius: 24px;
@@ -426,7 +427,7 @@ code {
 }
 
 
-
+/* поля ввода */
 .input {
   width: 100%;
   padding: 12px 16px;
@@ -446,7 +447,7 @@ code {
 }
 
 
-
+/* блоки текста */
 .textarea {
   width: 100%;
   min-height: 120px;
@@ -469,7 +470,7 @@ code {
 }
 
 
-
+/* заголовки и подзаголовки */
 .title {
   color: var(--text-h);
   font-size: 48px;
@@ -486,7 +487,7 @@ code {
 }
 
 
-
+/* флексы */
 .flex {
   display: flex;
 }
@@ -509,7 +510,7 @@ code {
 }
 
 
-
+/* гриды */
 .grid_2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -523,7 +524,7 @@ code {
 }
 
 
-
+/* расстояния */
 .gap_8 {
   gap: 8px;
 }
@@ -541,7 +542,7 @@ code {
 }
 
 
-
+/* доп. медиа */
 @media (max-width: 900px) {
   .grid_2,
   .grid_3 {
