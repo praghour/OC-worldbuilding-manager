@@ -1,12 +1,12 @@
 import { reactive } from "vue";
 
 const tags = [
-    {id: 0, type: 'weapon', 
-        tags: ['bow', 'crossbow', 'sword', 'dagger', 'spear']},
-    {id: 1, type: 'species', 
-        tags: ['human', 'dwarf', 'elf', 'werewolf', 'vampire']},
-    {id: 2, type: 'profession', 
-        tags: ['']}
+    {id: 0, type: 'оружие', 
+        tags: ['лук', 'арбалет', 'меч', 'кинжал', 'копьё']},
+    {id: 1, type: 'виды', 
+        tags: ['человек', 'дворф', 'эльф', 'оборотень', 'вампир']},
+    {id: 2, type: 'профессии', 
+        tags: ['кузнец', 'сапожник', 'травник', 'госслужащий']}
 ];
 
 const guilds = [

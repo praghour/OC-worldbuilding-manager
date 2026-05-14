@@ -6,6 +6,9 @@ import { RouterView } from 'vue-router';
   <div class="app">
     <RouterView />
   </div>
+  <PrimaryButton @click="createOC">
+    Создать OC
+  </PrimaryButton>
 </template>
 
 <style scoped>
